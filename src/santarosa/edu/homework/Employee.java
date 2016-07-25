@@ -17,8 +17,17 @@ public class Employee implements WorkingRules {
 	private int workHour;
 
 	/**
-	 * Class constructor specifying the employee's first name, last name, their
-	 * id and hours of working.
+	 * Employee constructor specifying the employee's first name, last name,
+	 * their id and hours of working.
+	 * 
+	 * @param firstName
+	 *            the first name of the employee
+	 * @param lastName
+	 *            the last name of the employee
+	 * @param id
+	 *            the identification of the employee
+	 * @param workHour
+	 *            the number of hours the employee spends on working
 	 */
 	public Employee(String firstName, String lastName, int id, int workHour) {
 		this.firstName = firstName;

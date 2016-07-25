@@ -13,6 +13,19 @@ package santarosa.edu.homework;
 public class Manager extends Employee {
 	private int hoursPlayingGolf;
 
+	/**
+	 * Manager constructor specifying the engineer's first name, last name,
+	 * their id and hours of working.
+	 * 
+	 * @param firstName
+	 *            the first name of the manager
+	 * @param lastName
+	 *            the last name of the manager
+	 * @param id
+	 *            the identification of the manager
+	 * @param workHour
+	 *            the number of hours the manager spends on working
+	 */
 	public Manager(String firstName, String lastName, int id, int workHour) {
 		super(firstName, lastName, id, workHour);
 		hoursPlayingGolf = 0;
